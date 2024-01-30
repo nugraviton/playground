@@ -15,6 +15,14 @@
         <version>3.2.2</version>
     </parent>
 
+    <scm>
+        <developerConnection>scm:git:https://github.com/nugraviton/playground.git</developerConnection>
+        <connection>scm:git:https://github.com/nugraviton/playground.git</connection>
+        <tag>**</tag>
+        <url>https://github.com/nugraviton/playground</url>
+    </scm>
+
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <start-class>com.nugraviton.App</start-class>
