@@ -2,7 +2,6 @@ package com.nugraviton;
 
 import net.sf.log4jdbc.sql.jdbcapi.DataSourceSpy;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceBuilder;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
@@ -16,7 +15,7 @@ public class AppConfig {
     @Autowired
     DataSourceProperties dataSourceProperties;
 
-    @Bean
+   /* @Bean
     @ConfigurationProperties(prefix = DataSourceProperties.PREFIX)
     DataSource realDataSource() {
         DataSource dataSource = DataSourceBuilder
@@ -26,11 +25,11 @@ public class AppConfig {
                 .password(this.dataSourceProperties.getPassword())
                 .build();
         return dataSource;
-    }
+    }*/
 
-    @Bean
+    /*@Bean
     @Primary
     DataSource dataSource() {
         return new DataSourceSpy(realDataSource());
-    }
+    }*/
 }
