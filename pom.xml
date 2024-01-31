@@ -23,7 +23,7 @@
     </scm>
     <distributionManagement>
         <repository>
-            <id>pkg.github.com</id>
+            <id>github</id><!-- this is the server id in settings.xml -->
             <name>GitHub nbauma109 Apache Maven Packages</name>
             <url>https://maven.pkg.github.com/nugraviton/playground</url>
         </repository>
