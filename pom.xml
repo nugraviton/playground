@@ -4,7 +4,7 @@
 
     <groupId>com.nugraviton</groupId>
     <artifactId>playground-release-plugin</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>Spring Boot Blank Project</name>
@@ -18,7 +18,7 @@
     <scm>
         <developerConnection>scm:git:https://github.com/nugraviton/playground.git</developerConnection>
         <connection>scm:git:https://github.com/nugraviton/playground.git</connection>
-        <tag>**</tag>
+        <tag>release/1.0.0</tag>
         <url>https://github.com/nugraviton/playground</url>
     </scm>
     <distributionManagement>
